@@ -54,6 +54,16 @@
     	<artifactId>hibernate-validator</artifactId>
     	<version>5.2.4.Final</version>
     </dependency>
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-jdbc</artifactId>
+    	<version>4.2.5.RELEASE</version>
+    </dependency>
+    <dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>5.1.38</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>mvc-documentapp</finalName>

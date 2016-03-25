@@ -53,7 +53,6 @@ public class DocumentService {
 	}
 	
 	public void addNewDocument(Document document) {
-		document.setCreatedAt(new Date());
 		dao.insert(document);
 	}
 	
